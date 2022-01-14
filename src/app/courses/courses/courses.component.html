@@ -1,4 +1,10 @@
-<table mat-table [dataSource]="courses" class="mat-elevation-z8">
+<mat-card>
+
+  <p>
+    <mat-toolbar color = "primary">Cursos disponíveis</mat-toolbar>
+  </p>
+
+  <table mat-table [dataSource]="courses" class="mat-elevation-z8">
 
   <!-- Name Column -->
   <ng-container matColumnDef="name">
@@ -14,5 +20,8 @@
 
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-</table>
+  </table>
+</mat-card>
+
+
 
