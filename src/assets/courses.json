@@ -2,10 +2,10 @@
   {
     "_id": "1",
     "name": "Angular",
-    "category": "Front-end"
+    "category": "front-end"
   },
   { "_id": "1",
     "name": "Java",
-    "category": "Back-end"
+    "category": "back-end"
   }
 ]
